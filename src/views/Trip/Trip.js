@@ -25,7 +25,7 @@ export default function Home() {
       setLoading(false);
     };
     getList();
-  }, []);
+  }, [params]);
 
   return (
     <div className="container d-flex justify-content-center my-5  ">

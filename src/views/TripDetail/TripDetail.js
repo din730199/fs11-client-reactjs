@@ -25,7 +25,7 @@ export default function TripDetail() {
       setLoading(false);
     };
     getList();
-  }, []);
+  }, [id]);
 
   const handleSelect = (i, ix) => {
     const newSeat = [...seat];
