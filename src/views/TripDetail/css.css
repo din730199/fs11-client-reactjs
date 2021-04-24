@@ -1,0 +1,13 @@
+.seat {
+    background-color: gray;
+    color: white;
+    width: 44px;
+    margin: 5px;
+  }
+  .seatSelect {
+    background-color: green;
+  }
+  .seatBooked {
+    background-color: red;
+    cursor: not-allowed;
+  }
