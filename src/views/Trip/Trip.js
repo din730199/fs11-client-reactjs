@@ -37,7 +37,7 @@ export default function Home() {
             return (
               <div key={i._id} className="card bg-light p-3 my-3">
                 <div className="card-block">
-                  <h1 className="display-5">{i._id}</h1>
+                  <h2 className="display-5">{i._id}</h2>
                   <span className="lead">
                     Điểm đi: {i.departurePlace.name}
                     {'  '}
