@@ -46,6 +46,13 @@ function App() {
 
               {/* <!-- End Page Content --> */}
             </div>
+            <footer class="sticky-footer bg-white">
+              <div class="container my-auto">
+                <div class="copyright text-center my-auto">
+                  <span>Copyright &copy; Fs11-client</span>
+                </div>
+              </div>
+            </footer>
           </div>
           {/* End Content Wrapper */}
         </Router>
@@ -83,8 +90,16 @@ function App() {
 
             {/* <!-- End Page Content --> */}
           </div>
+          <footer class="sticky-footer bg-white">
+            <div class="container my-auto">
+              <div class="copyright text-center my-auto">
+                <span>Copyright &copy; Fs11-client</span>
+              </div>
+            </div>
+          </footer>
         </div>
         <LogoutModal />
+
         {/* End Content Wrapper */}
       </Router>
     </div>
